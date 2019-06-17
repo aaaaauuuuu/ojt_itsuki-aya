@@ -1,21 +1,38 @@
-.header {
-    display: flex;
-    justify-content: space-between;
+.container {
+    width: 1281px;
+    margin: 0 auto;
+}
+
+#header {
+display: flex;
+justify-content: space-between;
 }
 .logo {
-    position: relative;
+    position: absolute;
+    margin: 11px 64.56px 55.93px 65px;
+    z-index: 1;
 }
 .list {
     display: flex;
+    justify-content: flex-end;
     list-style: none;
 }
 .list li {
-    margin-right: 30px;
-    padding: 30px 0 30px 0;
+    margin-right: 14px;
+    padding: 47.07px 0 30px 0;
+    font-size: 14px;
 }
-.bg {
-    width: 80%;
-    margin: 0 150px 0 150px;
-    margin-top: -150px;
+.bg img {
+    width: 1024px;
+    height: 448px;
+    margin: 0 129px 0 128px;
+    position: relative;
+    z-index: 0;
+}
+.intobg .bgtext {
     position: absolute;
+    top: 331.74px;
+    left: 714.58px;
+    /* margin: 331.74px 113.07px 0 714.58px; */
+    z-index: 2;
 }
